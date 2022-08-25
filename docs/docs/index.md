@@ -7,7 +7,7 @@
 
 **PyPi地址：** <a href="https://pypi.org/project/simple-spider-tool" target="_blank">https://pypi.org/project/simple-spider-tool </a>
 
-**GitHub地址：** [构建中...](/)
+**GitHub地址：** [https://github.com/xingcweb/simple-spider-tool](https://github.com/xingcweb/simple-spider-tool)
 
 ----
 ## 安装
@@ -52,7 +52,7 @@ print(format_json(all_user_info))
 内置依赖
 
 - `datetime` Python Datetime module supplies classes to work with date and time.
-- `hashlib` Secure hash and message digest algorithm library.
+- `hashlib` Secure hash and messag e digest algorithm library.
 - `typing` Type Hints for Python.
 
 第三方依赖
