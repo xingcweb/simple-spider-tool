@@ -23,7 +23,7 @@ pip install simple-spider-tool
 ## 简单使用
 
 ```python
-from simple_spider_tools import format_json, jsonpath
+from simple_spider_tool import format_json, jsonpath
 
 data = {
     "code": 200,

@@ -7,7 +7,7 @@
 ## 简单使用
 
 ```python
-from simple_spider_tools import format_json, jsonpath
+from simple_spider_tool import format_json, jsonpath
 
 data = {
     "code": 200,
@@ -31,3 +31,6 @@ all_user_info = jsonpath(data, '$.data[*].username')
 print(boss_name)
 print(format_json(all_user_info))
 ```
+
+xingc-simple-spider-tool
+xst

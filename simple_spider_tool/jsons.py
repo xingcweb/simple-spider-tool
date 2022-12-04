@@ -14,7 +14,7 @@ def format_json(src_json: Union[Dict, List], indent: int = 4) -> str:
     return json.dumps(src_json, ensure_ascii=False, indent=indent)
 
 
-def jsonpath(src_data: Dict, expr: str, default: Optional[Any] = None, first: bool = False):
+def jsonpath(src_data: Union[Dict, List], expr: str, default: Optional[Any] = None, first: bool = False):
     """
     jsonpath解析
     :param src_data: 解析对象
