@@ -1,7 +1,10 @@
 # 更新日志
+## 0.0.19
+* 添加`seventeen`可选扩展包，用于兼容`0.0.18`之前版本使用，如需使用请执行`pip install simple-spider-tool[seventeen]`
 
 ## 0.0.18
 * 添加`regx_match`和`for_to_regx_match`正在匹配方法
+* 修改导包根路径`simple_spider_tools`为`simple_spider_tool`
 
 ## 0.0.17
 

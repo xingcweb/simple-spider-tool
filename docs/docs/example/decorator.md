@@ -12,3 +12,22 @@
 
 `返回：`
 * `Any`
+
+## 示例
+
+```python
+import requests
+from requests.exceptions import RequestException
+from simple_spider_tool.decorator import retry
+
+
+@retry(num=5, exceptions=RequestException)
+def test_request():
+    url = 'http://simple-spider-tool.xingc.top/'
+    r = requests.get(url, timeout=8)
+    print(r.status_code)
+
+
+if __name__ == '__main__':
+    test_request()
+```
