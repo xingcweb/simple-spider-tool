@@ -1,4 +1,4 @@
-site_name: simple spider tools
+site_name: simple spider tool
 site_description: 一些简易、好用的爬虫工具，减少代码与文件冗余，提升工作的效率和代码整洁度
 repo_name: xingcweb/simple-spider-tool
 repo_url: https://github.com/xingcweb/simple-spider-tool
@@ -6,17 +6,24 @@ repo_url: https://github.com/xingcweb/simple-spider-tool
 theme:
   name: material
   palette:
-    # 自动模式的调色板切换
-    - media: "(prefers-color-scheme)"
+    - scheme: default
       primary: blue
+      accent: blue
       toggle:
-        icon: material/brightness-auto
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
         name: Switch to light mode
+  palette_mode: auto
 
 nav:
   - 首页: index.md
-  - Json: example/jsons.md
-  - 时间/日期: example/date.md
-  - 摘要信息加密: example/hash.md
-  - 装饰器: example/decorator.md
+  - json: example/jsons.md
+  - data: example/date.md
+  - hash: example/hash.md
+  - decorator: example/decorator.md
   - 更新日志: log.md
